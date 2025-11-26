@@ -1,0 +1,207 @@
+
+@media (min-width: 2200px) {
+    .banner .swiper-slide {
+        background-position-y: 30% !important;
+    }
+
+    .swiper1 .swiper-slide .overlay {
+        max-height: 900px;
+    }
+}
+
+@media (max-width: 991px) {
+    nav.navbar .navbar-nav .nav-link {
+        margin-top: 16px;
+    }
+    .title-box .img1 {
+        width: 180px;
+    }
+    .title-box h1 {
+        margin-left: -92px;
+    }
+    .repair-box .img-box {
+        min-height: 300px;
+    }
+    .repair-box {
+        margin-top: -330px;
+    }
+    .section1 .img1 {
+        width: 120px;
+        top: -16px;
+        left: -30px;
+    }
+    .section1 .box-1 {
+        padding-left: 165px;
+    }
+    .section1 .img-grid2 {
+        position: absolute;
+        left: 0;
+        bottom: 161px;
+        height: 215px;
+    }
+    .waiting-box .img1 {
+        height: 140px;
+    }
+    .waiting-box {
+        padding-top: 20px;
+        padding-bottom: 200px;
+    }
+
+    img.waiting-img {
+        height: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    img.waiting-img3 {
+        margin-left: -110px;
+    }
+
+    img.waiting-img5 {
+        margin-left: 120px;
+    }
+    .arrow-box {
+        height: 450px;
+        padding-top: 48px;
+    }
+
+    img.arrow-img-left {
+        width: 140px;
+        top: -20px;
+    }
+
+    img.arrow-img-right {
+        width: 190px;
+        top: 190px;
+    }
+    .marquee-track .img1 {
+        min-width: 42px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-top {
+        padding: 20px 8px;
+    }
+    .logo1 {
+        width: 80px;
+    }
+    .padding {
+        padding: 60px 8px;
+    }
+    .logo2 {
+        width: 110px;
+    }
+    .btn.btn1 {
+        font-size: .75rem;
+    }
+
+    .title-box .img1 {
+        width: 160px;
+    }
+    .title-box h1 {
+        margin-left: -82px;
+    }
+    .repair-box .img-box {
+        min-height: 260px;
+    }
+
+    .repair-box {
+        margin-top: -290px;
+    }
+    
+    .swiper1 .swiper-slide .overlay{
+        height: 75vh;
+    }
+    .radio-bottom {
+        padding-right: 0;
+    }
+    .about-banner {
+        min-height: 160px;
+    }
+    .section1 .img2 {
+        width: 24px;
+        margin-top: -4px;
+    }
+    .waiting-box .img1 {
+        height: 110px;
+    }
+    .atthe-img {
+        width: 390px;
+    }
+    .marquee-track .img1 {
+        min-width: 38px !important;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .title-box .img1 {
+        width: 120px;
+    }
+    .title-box h1 {
+        margin-left: -62px;
+    }
+
+    .repair-box .img-box {
+        min-height: 200px;
+    }
+
+    .repair-box {
+        margin-top: -230px;
+    }
+
+    .btn-link1 i {
+        font-size: 24px;
+    }
+    .development-box {
+        padding: 30px 15px;
+    }
+
+    .section1 h1.text-2 {
+        line-height: .4;
+    }
+    .section1 .img1 {
+        width: 110px;
+        top: -2px;
+        left: -24px;
+    }
+    .section1 .img2 {
+        width: 22px;
+        margin-top: -6px;
+    }
+    .section1 .img3 {
+        width: 90px;
+        height: 80px;
+    }
+    img.date-img {
+        width: 160px;
+    }
+    .waiting-box .img1 {
+        height: 90px;
+    }
+    .atthe-img {
+        width: 295px;
+    }
+    .marquee-track .img1 {
+        min-width: 34px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .section1 .btn.btn1 span {
+        font-size: .65rem !important;
+    }
+
+    .section1 .btn.btn1 {
+        padding: 10px 12px;
+    }
+    .banner .swiper-slide {
+        background-size: auto 65% !important;
+        background-repeat: no-repeat;
+        background-position: center 112%;
+    }
+    .swiper1 .swiper-slide .overlay {
+        height: 80vh;
+    }
+}
