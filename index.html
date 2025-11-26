@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim Creatives – Coming Soon</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #fece27;
+            font-family: "Helvetica", "Arial", sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        @keyframes fadeSlideDown {
+            0% { opacity: 0; transform: translateY(-20px) scale(0.98); }
+            100% { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        @keyframes fadeUp {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .logo {
+            width: 180px;
+            height: auto;
+            margin-bottom: 35px;
+            animation: fadeSlideDown 1.2s ease-out forwards;
+        }
+
+        h1 {
+            font-weight: 500;
+            font-size: 38px;
+            margin: 0;
+            color: #000;
+            opacity: 0;
+            animation: fadeUp 1.2s ease-out forwards;
+            animation-delay: 0.4s;
+        }
+
+        p {
+            font-weight: 300;
+            margin-top: 10px;
+            font-size: 20px;
+            color: #000;
+            opacity: 0;
+            animation: fadeUp 1.2s ease-out forwards;
+            animation-delay: 0.8s;
+        }
+
+        .contact {
+            position: absolute;
+            bottom: 25px;
+            font-weight: 300;
+            font-size: 18px;
+            color: #000;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards;
+            animation-delay: 1.2s;
+        }
+    </style>
+</head>
+<body>
+
+    <img class="logo" src="aim-logo.jpg" alt="Aim Creatives Logo">
+
+    <h1>Our website is in the making!</h1>
+    <p>Check back soon to see the magic</p>
+
+    <div class="contact">845.637.3344 | Hello@aimcreatives.co</div>
+
+</body>
+</html>
